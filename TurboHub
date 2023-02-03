@@ -234,7 +234,7 @@ ScrollTab.Parent = Tab
 ScrollTab.Active = true
 ScrollTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollTab.BackgroundTransparency = 1.000
-ScrollTab.Size = UDim2.new(0, 133, 0, 205)
+ScrollTab.Size = UDim2.new(0, 133, 0, 202)
 ScrollTab.CanvasSize = UDim2.new(0, 0, 0, 0)
 ScrollTab.ScrollBarThickness = 0
 
@@ -829,7 +829,7 @@ imgLabelIcon.Name = "Icon"
 				imgLabelIcon.Parent = Button
 				imgLabelIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				imgLabelIcon.BackgroundTransparency = 1.000
-				imgLabelIcon.Position = UDim2.new(0, 3, 0, 1)
+				imgLabelIcon.Position = UDim2.new(0, 5, 0, 1)
 				imgLabelIcon.Size = UDim2.new(0, 30, 0, 30)
 				imgLabelIcon.Image = "rbxassetid://12362129605" 
 
