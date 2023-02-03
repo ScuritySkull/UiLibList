@@ -234,7 +234,7 @@ ScrollTab.Parent = Tab
 ScrollTab.Active = true
 ScrollTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollTab.BackgroundTransparency = 1.000
-ScrollTab.Size = UDim2.new(0, 133, 0, 200)
+ScrollTab.Size = UDim2.new(0, 133, 0, 215)
 ScrollTab.CanvasSize = UDim2.new(0, 0, 0, 0)
 ScrollTab.ScrollBarThickness = 0
 
