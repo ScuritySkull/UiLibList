@@ -234,7 +234,7 @@ ScrollTab.Parent = Tab
 ScrollTab.Active = true
 ScrollTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollTab.BackgroundTransparency = 1.000
-ScrollTab.Size = UDim2.new(0, 133, 0, 202)
+ScrollTab.Size = UDim2.new(0, 133, 0, 203)
 ScrollTab.CanvasSize = UDim2.new(0, 0, 0, 0)
 ScrollTab.ScrollBarThickness = 0
 
@@ -1601,7 +1601,7 @@ Sep3.Name = "Sep3"
 Sep3.Parent = Seperator
 Sep3.BackgroundColor3 = Color3.new(125,125,125)
 Sep3.BorderSizePixel = 0
-Sep3.Position = UDim2.new(0, 310, 0, 10)
+Sep3.Position = UDim2.new(0, 300, 0, 10)
 Sep3.Size = UDim2.new(0, 80, 0, 1)
 end
 
