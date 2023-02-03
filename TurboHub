@@ -894,6 +894,7 @@ Title.TextXAlignment = Enum.TextXAlignment.Left
 				pcall(callback,toggled)
 			end
 		end
+--[[
 function main:BigTitle(text) 
 local Title = Instance.new("TextLabel")
 Title.Parent = MainFramePage
@@ -906,6 +907,7 @@ Title.Text = text
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 30.000
 Title.TextXAlignment = Enum.TextXAlignment.Left
+]]--
 function main:Dropdown(text,option,callback)
 local isdropping = false
 local Dropdown = Instance.new("Frame")
