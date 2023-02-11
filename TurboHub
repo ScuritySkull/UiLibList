@@ -1465,13 +1465,13 @@ Textboxx.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Textboxx.Position = UDim2.new(0, 1, 0, 1)
 Textboxx.Size = UDim2.new(0, 385, 0, 29)
 
-TextboxxCorner.CornerRadius = UDim.new(0, 5)
+TextboxxCorner.CornerRadius = UDim.new(0, 3)
 TextboxxCorner.Name = "TextboxxCorner"
 TextboxxCorner.Parent = Textboxx
 
 TextboxLabel.Name = "TextboxLabel"
 TextboxLabel.Parent = Textbox
-TextboxLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextboxLabel.BackgroundColor3 = Color3.fromRGB(255, 130, 0)
 TextboxLabel.BackgroundTransparency = 1.000
 TextboxLabel.Position = UDim2.new(0, 15, 0, 0)
 TextboxLabel.Text = text
@@ -1484,7 +1484,7 @@ TextboxLabel.TextXAlignment = Enum.TextXAlignment.Left
 
 txtbtn.Name = "txtbtn"
 txtbtn.Parent = Textbox
-txtbtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+txtbtn.BackgroundColor3 = Color3.fromRGB(255, 130, 0)
 txtbtn.BackgroundTransparency = 1.000
 txtbtn.Position = UDim2.new(0, 1, 0, 1)
 txtbtn.Size = UDim2.new(0, 387, 0, 29)
@@ -1512,7 +1512,7 @@ RealTextbox.FocusLost:Connect(function()
  end
  end)
 
-UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.CornerRadius = UDim.new(0, 3)
 UICorner.Parent = RealTextbox
 end
 function main:Label(text)
