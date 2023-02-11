@@ -640,7 +640,7 @@ TextBtn.Size = UDim2.new(0, 385, 0, 32)
 TextBtn.AutoButtonColor = false
 TextBtn.Font = Enum.Font.GothamSemibold
 TextBtn.Text = text
-TextBtn.TextColor3 = Color3.fromRGB(45,45,45)
+TextBtn.TextColor3 = Color3.fromRGB(35,35,35)
 TextBtn.TextSize = 15.000
 
 UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -710,7 +710,7 @@ CheckFrame.Size = UDim2.new(0, 387, 0, 31)
 
 CheckFrame2.Name = "CheckFrame2"
 CheckFrame2.Parent = CheckFrame
-CheckFrame2.BackgroundColor3 = Color3.fromRGB(45,45,45)
+CheckFrame2.BackgroundColor3 = Color3.fromRGB(35,35,35)
 CheckFrame2.BorderSizePixel = 0
 CheckFrame2.Position = UDim2.new(0, 1, 0, 1)
 CheckFrame2.Size = UDim2.new(0, 387, 0, 31)
@@ -804,7 +804,7 @@ _G.Color = Color3.fromRGB(255, 130, 0)
 
 			Button.Name = "Button"
 			Button.Parent = MainFramePage
-			Button.BackgroundColor3 = Color3.fromRGB(45,45,45)
+			Button.BackgroundColor3 = Color3.fromRGB(35,35,35)
 			Button.Position = UDim2.new(0, 1, 0, 1)
 			Button.Size = UDim2.new(0, 387, 0, 31)
 			Button.AutoButtonColor = false
@@ -922,7 +922,7 @@ local UIStroke = Instance.new("UIStroke")
 
 Dropdown.Name = "Dropdown"
 Dropdown.Parent = MainFramePage
-Dropdown.BackgroundColor3 = Color3.fromRGB(45,45,45)
+Dropdown.BackgroundColor3 = Color3.fromRGB(35,35,35)
 Dropdown.ClipsDescendants = true
 Dropdown.Size = UDim2.new(0, 387, 0, 31)
 
@@ -1153,7 +1153,7 @@ slidercorner.Parent = Slider
 
 sliderr.Name = "sliderr"
 sliderr.Parent = Slider
-sliderr.BackgroundColor3 = Color3.fromRGB(45,45,45)
+sliderr.BackgroundColor3 = Color3.fromRGB(35,35,35)
 sliderr.Position = UDim2.new(0, 1, 0, 1)
 sliderr.Size = UDim2.new(0, 385, 0, 49)
 
