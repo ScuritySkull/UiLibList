@@ -1341,7 +1341,7 @@ TextboxxCorner.Parent = Textboxx
 
 TextboxLabel.Name = "TextboxLabel"
 TextboxLabel.Parent = Textbox
-TextboxLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextboxLabel.BackgroundColor3 = Color3.fromRGB(255, 130, 0)
 TextboxLabel.BackgroundTransparency = 1.000
 TextboxLabel.Position = UDim2.new(0, 15, 0, 0)
 TextboxLabel.Text = text
