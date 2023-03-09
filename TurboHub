@@ -1592,7 +1592,7 @@ Labeld.Size = UDim2.new(0, 410, 0, 20)
 Labeld.Font = Enum.Font.GothamSemibold
 Labeld.TextColor3 = Color3.fromRGB(255,130,0)
 Labeld.TextSize = 15.000
-Labeld.Text = "" or display
+Labeld.Text = display or ""
 Labeld.TextXAlignment = Enum.TextXAlignment.Left
 
 PaddingLabel1.PaddingLeft = UDim.new(0,15)
