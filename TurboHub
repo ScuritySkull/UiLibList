@@ -1568,6 +1568,43 @@ end
 return Label1func
 end
 
+function main:Dis(text,display)
+local Label1 = Instance.new("TextLabel")
+local PaddingLabel1 = Instance.new("UIPadding")
+local Label1func = {}
+
+Label1.Name = "Label1"
+Label1.Parent = MainFramePage
+Label1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label1.BackgroundTransparency = 1.000
+Label1.Size = UDim2.new(0, 410, 0, 20)
+Label1.Font = Enum.Font.GothamSemibold
+Label1.TextColor3 = Color3.fromRGB(255,255,255)
+Label1.TextSize = 15.000
+Label1.Text = text
+Label1.TextXAlignment = Enum.TextXAlignment.Left
+
+Labeld.Name = "Labeld"
+Labeld.Parent = MainFramePage
+Labeld.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Labeld.BackgroundTransparency = 1.000
+Labeld.Size = UDim2.new(0, 410, 0, 20)
+Labeld.Font = Enum.Font.GothamSemibold
+Labeld.TextColor3 = Color3.fromRGB(255,130,0)
+Labeld.TextSize = 15.000
+Labeld.Text = "" or display
+Labeld.TextXAlignment = Enum.TextXAlignment.Left
+
+PaddingLabel1.PaddingLeft = UDim.new(0,15)
+PaddingLabel1.Parent = Label1
+PaddingLabel1.Name = "PaddingLabel1"
+function Label1func:Refresh(tochange)
+Label1.Text = tochange
+end
+
+return Label1func
+end
+
 function main:Seperator(text)
 local Seperator = Instance.new("Frame")
 local Sep1 = Instance.new("Frame")
